@@ -20,6 +20,7 @@
 		54005EB229DD60F500B7952E /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54005EB129DD60F500B7952E /* FeedLoader.swift */; };
 		54005EB429DD750E00B7952E /* RemoteFeedLoaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54005EB329DD750E00B7952E /* RemoteFeedLoaderTest.swift */; };
 		54005EB729DD8FD400B7952E /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54005EB629DD8FD400B7952E /* RemoteFeedLoader.swift */; };
+		54005EB929E97B9D00B7952E /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54005EB829E97B9D00B7952E /* HTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		54005EB129DD60F500B7952E /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		54005EB329DD750E00B7952E /* RemoteFeedLoaderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTest.swift; sourceTree = "<group>"; };
 		54005EB629DD8FD400B7952E /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
+		54005EB829E97B9D00B7952E /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				54005EB629DD8FD400B7952E /* RemoteFeedLoader.swift */,
+				54005EB829E97B9D00B7952E /* HTTPClient.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				54005EB029DD606D00B7952E /* FeedItem.swift in Sources */,
 				54005E8329DD604700B7952E /* ViewController.swift in Sources */,
 				54005E7F29DD604700B7952E /* AppDelegate.swift in Sources */,
+				54005EB929E97B9D00B7952E /* HTTPClient.swift in Sources */,
 				54005EB229DD60F500B7952E /* FeedLoader.swift in Sources */,
 				54005EB729DD8FD400B7952E /* RemoteFeedLoader.swift in Sources */,
 				54005E8129DD604700B7952E /* SceneDelegate.swift in Sources */,
