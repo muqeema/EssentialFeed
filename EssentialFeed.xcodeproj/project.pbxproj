@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		54005E7F29DD604700B7952E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54005E7E29DD604700B7952E /* AppDelegate.swift */; };
-		54005E8129DD604700B7952E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54005E8029DD604700B7952E /* SceneDelegate.swift */; };
-		54005E8329DD604700B7952E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54005E8229DD604700B7952E /* ViewController.swift */; };
-		54005E8629DD604700B7952E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54005E8429DD604700B7952E /* Main.storyboard */; };
-		54005E8829DD604900B7952E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54005E8729DD604900B7952E /* Assets.xcassets */; };
-		54005E8B29DD604900B7952E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54005E8929DD604900B7952E /* LaunchScreen.storyboard */; };
 		54005E9629DD604900B7952E /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54005E9529DD604900B7952E /* EssentialFeedTests.swift */; };
 		54005EA029DD604900B7952E /* EssentialFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54005E9F29DD604900B7952E /* EssentialFeedUITests.swift */; };
 		54005EA229DD604900B7952E /* EssentialFeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54005EA129DD604900B7952E /* EssentialFeedUITestsLaunchTests.swift */; };
@@ -27,6 +22,9 @@
 		54AA0A472A013D4A001F10C2 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA0A462A013D4A001F10C2 /* URLSessionHTTPClient.swift */; };
 		54AA0A4F2A014B5A001F10C2 /* EssentialFeedAPIEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA0A4E2A014B5A001F10C2 /* EssentialFeedAPIEndToEndTests.swift */; };
 		54AA0AA22A027EEB001F10C2 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA0A442A00FC49001F10C2 /* XCTestCase+MemoryLeakTracking.swift */; };
+		54AA0AF22A03DFC9001F10C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AA0AF12A03DFC9001F10C2 /* Main.storyboard */; };
+		54AA0AF52A03E026001F10C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54AA0AF42A03E026001F10C2 /* Assets.xcassets */; };
+		54AA0AF72A03E060001F10C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA0AF62A03E060001F10C2 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,11 +54,6 @@
 /* Begin PBXFileReference section */
 		54005E7B29DD604700B7952E /* EssentialFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54005E7E29DD604700B7952E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54005E8029DD604700B7952E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		54005E8229DD604700B7952E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		54005E8529DD604700B7952E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		54005E8729DD604900B7952E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		54005E8A29DD604900B7952E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54005E8C29DD604900B7952E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54005E9129DD604900B7952E /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54005E9529DD604900B7952E /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
@@ -78,6 +71,10 @@
 		54AA0A462A013D4A001F10C2 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		54AA0A4C2A014B5A001F10C2 /* EssentialFeedAPIEndToEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedAPIEndToEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54AA0A4E2A014B5A001F10C2 /* EssentialFeedAPIEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedAPIEndToEndTests.swift; sourceTree = "<group>"; };
+		54AA0AF12A03DFC9001F10C2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		54AA0AF32A03DFE4001F10C2 /* EssentialFeed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EssentialFeed.entitlements; sourceTree = "<group>"; };
+		54AA0AF42A03E026001F10C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54AA0AF62A03E060001F10C2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,11 +135,10 @@
 			isa = PBXGroup;
 			children = (
 				54005E7E29DD604700B7952E /* AppDelegate.swift */,
-				54005E8029DD604700B7952E /* SceneDelegate.swift */,
-				54005E8229DD604700B7952E /* ViewController.swift */,
-				54005E8429DD604700B7952E /* Main.storyboard */,
-				54005E8729DD604900B7952E /* Assets.xcassets */,
-				54005E8929DD604900B7952E /* LaunchScreen.storyboard */,
+				54AA0AF62A03E060001F10C2 /* ViewController.swift */,
+				54AA0AF12A03DFC9001F10C2 /* Main.storyboard */,
+				54AA0AF42A03E026001F10C2 /* Assets.xcassets */,
+				54AA0AF32A03DFE4001F10C2 /* EssentialFeed.entitlements */,
 				54005E8C29DD604900B7952E /* Info.plist */,
 				54005EAE29DD605A00B7952E /* FeedFeature */,
 				54005EB529DD8FB200B7952E /* Feed API */,
@@ -341,9 +337,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54005E8B29DD604900B7952E /* LaunchScreen.storyboard in Resources */,
-				54005E8829DD604900B7952E /* Assets.xcassets in Resources */,
-				54005E8629DD604700B7952E /* Main.storyboard in Resources */,
+				54AA0AF52A03E026001F10C2 /* Assets.xcassets in Resources */,
+				54AA0AF22A03DFC9001F10C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,13 +371,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				54005EB029DD606D00B7952E /* FeedItem.swift in Sources */,
-				54005E8329DD604700B7952E /* ViewController.swift in Sources */,
 				54005E7F29DD604700B7952E /* AppDelegate.swift in Sources */,
 				54005EBB29E97C1200B7952E /* FeedItemsMapper.swift in Sources */,
 				54005EB929E97B9D00B7952E /* HTTPClient.swift in Sources */,
 				54005EB229DD60F500B7952E /* FeedLoader.swift in Sources */,
 				54005EB729DD8FD400B7952E /* RemoteFeedLoader.swift in Sources */,
-				54005E8129DD604700B7952E /* SceneDelegate.swift in Sources */,
+				54AA0AF72A03E060001F10C2 /* ViewController.swift in Sources */,
 				54AA0A472A013D4A001F10C2 /* URLSessionHTTPClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,25 +429,6 @@
 			targetProxy = 54AA0A502A014B5A001F10C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		54005E8429DD604700B7952E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54005E8529DD604700B7952E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		54005E8929DD604900B7952E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54005E8A29DD604900B7952E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		54005EA329DD604900B7952E /* Debug */ = {
@@ -510,7 +485,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -563,7 +538,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -590,9 +565,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.EssentialFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -619,9 +596,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.EssentialFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -638,9 +617,11 @@
 				DEVELOPMENT_TEAM = KS5GD74J24;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.EssentialFeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -658,9 +639,11 @@
 				DEVELOPMENT_TEAM = KS5GD74J24;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.EssentialFeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -679,6 +662,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.EssentialFeedUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -697,6 +681,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.EssentialFeedUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -713,9 +698,11 @@
 				DEVELOPMENT_TEAM = KS5GD74J24;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.EssentialFeedAPIEndToEndTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -732,9 +719,11 @@
 				DEVELOPMENT_TEAM = KS5GD74J24;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.EssentialFeedAPIEndToEndTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,17 +1,24 @@
 //
 //  ViewController.swift
-//  EssentialFeed
+//  TestMac
 //
-//  Created by Muqeem.Ahmad on 05/04/23.
+//  Created by Muqeem.Ahmad on 04/05/23.
 //
 
-import UIKit
+import Cocoa
 
-class ViewController: UIViewController {
+class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
+    }
+
+    override var representedObject: Any? {
+        didSet {
+        // Update the view, if already loaded.
+        }
     }
 
 
