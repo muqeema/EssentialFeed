@@ -39,6 +39,7 @@
 		54DF9A642A3B47F800F62457 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DF9A632A3B47F800F62457 /* SharedTestHelpers.swift */; };
 		54EEC31D2A38A63C00781E7D /* LoadFeedFromCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EEC31C2A38A63C00781E7D /* LoadFeedFromCacheUseCaseTests.swift */; };
 		54EEC3202A38A76B00781E7D /* FeedStoreSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EEC31F2A38A76B00781E7D /* FeedStoreSpy.swift */; };
+		54F9CAD72A67FE36003B4F23 /* CodableFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F9CAD62A67FE36003B4F23 /* CodableFeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		54DF9A632A3B47F800F62457 /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
 		54EEC31C2A38A63C00781E7D /* LoadFeedFromCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedFromCacheUseCaseTests.swift; sourceTree = "<group>"; };
 		54EEC31F2A38A76B00781E7D /* FeedStoreSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoreSpy.swift; sourceTree = "<group>"; };
+		54F9CAD62A67FE36003B4F23 /* CodableFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 				547F647A2A2F3A0F006D66FB /* FeedStore.swift */,
 				547F647E2A2F666D006D66FB /* LocalFeedImage.swift */,
 				54457B532A3C5DA400ADCBAC /* FeedCachePolicy.swift */,
+				54F9CAD62A67FE36003B4F23 /* CodableFeedStore.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 				54457B542A3C5DA400ADCBAC /* FeedCachePolicy.swift in Sources */,
 				547F647B2A2F3A0F006D66FB /* FeedStore.swift in Sources */,
 				547F647D2A2F660D006D66FB /* RemoteFeedItem.swift in Sources */,
+				54F9CAD72A67FE36003B4F23 /* CodableFeedStore.swift in Sources */,
 				54005E8329DD604700B7952E /* ViewController.swift in Sources */,
 				54005E7F29DD604700B7952E /* AppDelegate.swift in Sources */,
 				54005EBB29E97C1200B7952E /* FeedItemsMapper.swift in Sources */,
